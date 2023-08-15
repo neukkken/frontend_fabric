@@ -22,5 +22,6 @@ let arrayNum = [1,2,3,4,5,6,7,8]
 
 let numeroDigitado = parseInt(prompt("Digite la posicion del array a ver"));
 
-console.log(arrayNum[numeroDigitado]);
+console.log(`La posicion del array que quieres ver es: ${arrayNum[numeroDigitado]}`);
+
 
