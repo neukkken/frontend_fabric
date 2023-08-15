@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins';
+    background-color: #919191;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    min-width: 10px;
+    align-items: center;
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+}
+
+nav {
+    padding-right: 25px;
+}
+
+nav a{
+    margin: 5px;
+}
+
+.nav_link:hover{
+    transition: 0.5s;
+    color: #FB1B1B;
+}
+
+div{
+    margin: 0px;
+}
+
+.container{
+    margin: 0px 100px;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container div{
+    flex-direction: column;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    width: 200px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.img_pokemon div{
+    margin: 0px;
+}
+
+.img_pokemon img{
+    margin: 15px;
+    height: 150px;
+}
+
+.img_pokemon p{
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 10px;
+    color: #919191;
+}
+
+.des h3{
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.img_pokemon nav{
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.des div{
+    border-radius: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.types a{
+    
+    padding: 0px 20px;
+    font-size: 10px;
+}
+
+.types{
+
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.types a.type_planta{
+    border-radius: 5px;
+    color: black;
+    margin: 0px;
+    background-color: #9bcc50;
+}
+
+.types a.type_veneno{
+    
+    color: white;
+    margin: 0px;
+    background-color: #b97fc9;
+    border-radius: 5px;
+}
+
+.type_fuego{
+    border-radius: 5px;
+    color: white;
+    margin: 0px;
+    background-color: #fd7d24;
+}
+
+.type_volador{
+    border-radius: 5px;
+    color: black;
+    margin: 0px;
+    background: linear-gradient(rgb(61, 199, 239) 50%, rgb(189, 185, 184) 50%);
+}
+
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    nav a{
+        padding: 0px 25px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+}
