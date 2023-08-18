@@ -100,11 +100,48 @@
 
 // EJERCICIO 4 FOR OTRA VE
 
-// let tamañoDelTriangulo = parseInt(prompt("Digite el tamaño del triangulo"));
 // let asterisco = "";
 
-// for (let i = 0; i < tamañoDelTriangulo; i++) {
 
-//     console.log(asterisco=asterisco+" * ");
+// while(true){
+//     let tamañoDelTriangulo = prompt("Digite el tamaño del triangulo");
+//     if(tamañoDelTriangulo%2 != 0 && tamañoDelTriangulo%2 != 1){
+//         alert ("Ingrese un numero entero no decimal webon");
+//     }else{
+//         for (let i = 0; i < tamañoDelTriangulo; i++) {
+//             console.log(asterisco=asterisco+" * ");
+//         }
+//         break;
+//     }
+// }
+
+//MALISIMO
+
+// let cont=0;
+
+// while(cont<=3){
+
+//     let password = prompt("Enter your password");
+//     let passwordConfirm = prompt("repeat your password");
+
+
+//     if (password == passwordConfirm){
+//         alert("Inicio de sesion exitoso")
+//         break;
+//     }else if(cont==3){
+//         alert("Ha superado el numero de intentos :/")
+//         break;
+//     }else if(password!=passwordConfirm){
+//         alert("Vuelva a repetirlo")
+//         cont++;
+//     }
 
 // }
+
+//FORMA 2 DE USAR EL FOR (OF ARRAY, TAMBIEN ESTA IN ARRAY QUE ES COMO UN ARRAY.LENGHT MAOMENO) 
+
+let array1 = [1,2,3,4,5,6,7];
+
+for(let r of array1){
+    console.log(r);
+}
