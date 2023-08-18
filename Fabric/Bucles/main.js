@@ -140,8 +140,11 @@
 
 //FORMA 2 DE USAR EL FOR (OF ARRAY, TAMBIEN ESTA IN ARRAY QUE ES COMO UN ARRAY.LENGHT MAOMENO) 
 
-let array1 = [1,2,3,4,5,6,7];
+// let array1 = [1,2,3,4,5,6,7];
 
-for(let r of array1){
-    console.log(r);
-}
+// for(let r (of o in)array1){
+//     console.log(r);
+// }
+
+
+
