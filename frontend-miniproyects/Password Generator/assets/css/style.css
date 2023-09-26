@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@400;600&display=swap');
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    font-family: 'Abel';
+}
+
+header{
+    border-bottom: 1px solid;
+    padding: 2em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+header nav a:hover{
+    transform: scale(110%);
+}
+
+.mainSection div{
+    display: flex;
+    padding: 0px 2em 0px 0.2em;
+    width: fit-content;
+    border: 2px solid black;
+}
+
+.mainSection div p, #numChar{
+    font-family: 'Inconsolata';
+    font-weight: 600;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gen{
+    margin: 0.5em 0px;
+    border: none;
+    background-color: white;
+    padding: 0.5em 1em;
+    transition: 0.3s;
+}
+
+#gen:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+#numChar{
+    width: 8em;
+    border: none;
+}
